@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>menu</class>
+ <widget class="QDialog" name="menu">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>237</width>
+    <height>360</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Menu WIndow</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../resource/sgLogo.ico</normaloff>../resource/sgLogo.ico</iconset>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QWidget" name="widget" native="true">
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);</string>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <widget class="QPushButton" name="stop_work">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="cursor">
+         <cursorShape>OpenHandCursor</cursorShape>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">#stop_work{
+border-radius:10px;}
+QPushButton:hover {
+   
+	background-color: rgb(211, 215, 207);
+        }</string>
+        </property>
+        <property name="text">
+         <string>Stop Working</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="add_timer">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="cursor">
+         <cursorShape>OpenHandCursor</cursorShape>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">#add_timer{
+border-radius:10px;}
+
+QPushButton:hover {
+   
+	background-color: rgb(211, 215, 207);
+        }</string>
+        </property>
+        <property name="text">
+         <string>Add Timer Note</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="open_timer">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="cursor">
+         <cursorShape>OpenHandCursor</cursorShape>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">#open_timer{
+border-radius:10px;}
+
+QPushButton:hover {
+   
+	background-color: rgb(211, 215, 207);
+        }</string>
+        </property>
+        <property name="text">
+         <string>Open Timer</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="Line" name="line">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_2">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>20</height>
+         </size>
+        </property>
+        <property name="cursor">
+         <cursorShape>ForbiddenCursor</cursorShape>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">width: 133px;
+height: 44px;
+
+/* Mobile/Heading H3/Bold */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 44px;
+/* identical to box height, or 157% */
+
+text-align: center;
+
+/* Neutral/800 */
+
+color: rgb(170, 170, 170);
+
+
+/* Inside auto layout */
+
+</string>
+        </property>
+        <property name="text">
+         <string>Sign in &lt;user_name&gt;</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="cursor">
+         <cursorShape>ForbiddenCursor</cursorShape>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">width: 133px;
+height: 44px;
+
+/* Mobile/Heading H3/Bold */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 44px;
+/* identical to box height, or 157% */
+
+text-align: center;
+
+/* Neutral/800 */
+
+color: rgb(170, 170, 170);
+
+
+/* Inside auto layout */
+
+</string>
+        </property>
+        <property name="text">
+         <string>&lt;User Email&gt;</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="sign_out_btn">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="cursor">
+         <cursorShape>OpenHandCursor</cursorShape>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">#sign_out_btn{
+border-radius:10px;}
+
+QPushButton:hover {
+   
+	background-color: rgb(211, 215, 207);
+        }</string>
+        </property>
+        <property name="text">
+         <string>Signout</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="Line" name="line_2">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="open_dash">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="cursor">
+         <cursorShape>OpenHandCursor</cursorShape>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">#open_dash{border-radius:10px;}
+
+QPushButton:hover {
+   
+	background-color: rgb(211, 215, 207);
+        }</string>
+        </property>
+        <property name="text">
+         <string>Open Dashboard</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="add_edit_time">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="cursor">
+         <cursorShape>OpenHandCursor</cursorShape>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">#add_edit_time{
+border-radius:10px;}
+
+QPushButton:hover {
+   
+	background-color: rgb(211, 215, 207);
+        }</string>
+        </property>
+        <property name="text">
+         <string>Add Edit Timer</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="quit">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="cursor">
+         <cursorShape>OpenHandCursor</cursorShape>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">#quit{border-radius:10px;}
+
+QPushButton:hover {
+   
+	background-color: rgb(211, 215, 207);
+        }</string>
+        </property>
+        <property name="text">
+         <string>Quit TimeGuruz</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

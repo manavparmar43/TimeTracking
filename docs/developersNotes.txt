@@ -1,0 +1,5 @@
+To make screenshoot functionality work for ubuntu 20.4 LTS
+i had to run the following commands
+- sudo apt-get install python3.10-tk python3.10-dev [I have multiple python version so written explicitly] else
+    - `sudo apt-get install python3-tk python3-dev` will work fine 
+- sudo apt-get install scrot

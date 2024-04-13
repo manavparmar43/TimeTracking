@@ -1,0 +1,28 @@
+* if you are run this timeguruz file normally so you can just uncomment this lines and comment this lines
+comment : 
+       # os.path.join(self.exe_dir, "_internal", "timeguruz.png") 
+       # self.exe_dir = os.path.dirname(sys.executable) if getattr(sys, 'frozen', False) else os.path.dirname(__file__)
+
+uncomment :
+         os.path.join(os.getcwd(), "resource/timeguruz.png")
+
+--------------------------------------------------------------------------------         
+
+* if you are run this timeguruz file as exe file  so you can just uncomment this lines and comment this lines
+uncomment : 
+       os.path.join(self.exe_dir, "_internal", "timeguruz.png") 
+       self.exe_dir = os.path.dirname(sys.executable) if getattr(sys, 'frozen', False) else os.path.dirname(__file__)
+
+comment :
+         # os.path.join(os.getcwd(), "resource/timeguruz.png")
+ 
+--------------------------------------------------------------------------------- 
+this line of code available in to this files:
+- Timeguruz_new.py
+- dialogbox:
+    - all the dialog box files 
+
+
+* if the packages are not install in venv so just upgrade this command
+    -- pip install --upgrade sip
+    -- pip install --upgrade pip

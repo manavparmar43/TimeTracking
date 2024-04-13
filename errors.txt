@@ -1,0 +1,60 @@
+-------------------------------------------------------------
+global :
+erroor :
+	return open_func(self.baseFilename, self.mode,
+	FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\xyzlm\\OneDrive\\Desktop\\timetracker\\time-tracker-desktop-client\\logs\\2023-11-29.log'
+solutions:
+create blank logs folder inside timetracker
+
+--------------------------------------------------------------
+ubnutu 22.04:
+
+
+Error :
+
+install the all requirement and fecing this error :
+
+-- sipbuild.exceptions.UserException
+
+solutuion is :
+
+-- pip install --upgrade sip
+-- pip install --upgrade pip
+
+run this command after type this:
+
+-- pip install -r requirements.txt
+
+error:
+The virtual environment was not created successfully because ensurepip is not
+available.  On Debian/Ubuntu systems, you need to install the python3-venv
+package using the following command.
+
+solution :
+sudo apt install python3.8-venv
+when u r type firsttime command so create venv autometically now delete this venv and second time requirement of venv so type this cmd 
+
+python3 -m venv venv
+	
+---------------------------------------------------------------
+ubnutu 20.04:
+
+error:
+The virtual environment was not created successfully because ensurepip is not
+available.  On Debian/Ubuntu systems, you need to install the python3-venv
+package using the following command.
+
+solution :
+sudo apt install python3.8-venv
+when u r type firsttime command so create venv autometically now delete this venv and second time requirement of venv so type this cmd 
+
+python3 -m venv venv
+
+error :
+You must install tkinter on Linux to use MouseInfo. Run the following: sudo apt-get install python3-tk python3-dev
+
+solution:
+sudo apt-get install python3-tk python3-dev
+
+
+
